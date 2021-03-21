@@ -1,4 +1,4 @@
-# 10.039 Deep Learning Small Project
+# 50.039 Deep Learning Small Project
 ---
 
 [TOC]
@@ -8,7 +8,16 @@
 **Li Yuxuan** 1003607
 **Ng Jia Yi** 1003696
 
+# About Project
+
+In this repo, you can find the main model running code in `50.039 Small Project 2 Binary.ipynb`. To test the model on the 25 images of the test dataset, find the code in `Binary Classifiers Test.ipynb`. To plot the graph showing distribution of the dataset, find the code in `distribution.ipynb`. 
+
+Results are collected as `.csv` files as well as `.png` under the two folders `Binary Without Preprocessing - Results` and `Binary With Preprocessing - Results`. As names suggested, we ran two experiments, one with the image preprocessing (will be discussed later) and one without image preprocessing. Accuracy, Train Loss and Validation Loss are collected in CSV for graph plotting, and a pre-plotted images have been included in the respective folders.
+
+Looking at the filename, the names are self-explanatory, except for the two symbols `cn` and `ni`. `ni` represents: **Normal-Infected** binary set and `cn` represents **Covid-NonCovid** set.
+
 # Introduction
+
 In this project, we attempt to design a deep learning model, whose task is to assist with the diagnosis of pneumonia, for COVID and non-COVID cases, by using X-ray images of patients. We engineered a lightweight convolutional neural network model that can collectively train/test the given x-ray scans. In this report, we will cover our design process and the challenges that come along with it. 
 
 # Proposed Methodology
