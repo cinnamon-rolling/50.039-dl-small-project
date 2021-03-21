@@ -1,4 +1,4 @@
-# 10.039 Deep Learning Small Project
+# 50.039 Deep Learning Small Project
 ---
 
 [TOC]
